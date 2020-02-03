@@ -65,7 +65,7 @@ class HomePageState extends State<HomePage> {
           actionPane: SlidableDrawerActionPane(),
           secondaryActions: <Widget>[
             IconSlideAction(
-              caption: 'Delete',
+              caption: 'حذف',
               color: Colors.red,
               icon: Icons.delete,
               onTap: () => database.deleteTask(itemTask),
